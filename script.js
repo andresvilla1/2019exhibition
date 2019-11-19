@@ -84,7 +84,7 @@ function  checkConfigurationtwo(el){
 		c.classList.add("opaque");
 		d.classList.add("opaque");
 		
-		alert("Wow, you found the secret javascript function!");
+		alert("Wow, you found the secret java function!");
 		
 	} else {
 		alert("Wrong! Your dead:("); // an alert is like a notification that pops up on the screen saying something. 
