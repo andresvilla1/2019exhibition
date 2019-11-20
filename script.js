@@ -1,4 +1,3 @@
-
 function nextImage(el){
 		if (el.src.match("images/kersh.png")){
 		el.src = "images/kershgif.GIF"; 
@@ -87,9 +86,7 @@ function  checkConfigurationtwo(el){
 		alert("Wow, you found the secret java function!");
 		
 	} else {
-		alert("Wrong! Your dead:("); // an alert is like a notification that pops up on the screen saying something. 
+		alert("Ah! Can't complete this just yet!"); // an alert is like a notification that pops up on the screen saying something. 
 	}
 	// when the images match up to the src's then it will add opaque to each a,b,c, and d class. then the class "display" will be removed and will add the class display on the src. Then an alert will pop up saying whatever is in the quotations. Finally, if the srcs dont match up, then a alert will pop up saying whatever is in the quotations.
 }
-
- 
