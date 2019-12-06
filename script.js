@@ -1,5 +1,6 @@
+
 function nextImage(el){
-		if (el.src.match("images/kersh.png")){
+	if (el.src.match("images/kersh.png")){
 		el.src = "images/kershgif.GIF"; 
 	} else if (el.src.match("images/kershgif.GIF")){
 		el.src = "images/kersh2gif.GIF";
@@ -14,7 +15,7 @@ function nextImage(el){
 }
 
 function nextImagetwo(el){
-		if (el.src.match("images/belli.png")){
+	if (el.src.match("images/belli.png")){
 		el.src = "images/belligif.GIF"; 
 	} else if (el.src.match("images/belligif.GIF")){
 		el.src = "images/belli2gif.GIF";
@@ -29,7 +30,7 @@ function nextImagetwo(el){
 }
 
 function nextImagethree(el){
-		if (el.src.match("images/CK22.png")){
+	if (el.src.match("images/CK22.png")){
 		el.src = "images/CK.png"; 
 	} else if (el.src.match("images/CK.png")){
 		el.src = "images/CK.png";
@@ -37,7 +38,7 @@ function nextImagethree(el){
 }	
 
 function nextImagefour(el){
-		if (el.src.match("images/bellijersey.png")){
+	if (el.src.match("images/bellijersey.png")){
 		el.src = "images/CB.png"; 
 	} else if (el.src.match("images/CK.png")){
 		el.src = "images/CK.png";
@@ -45,7 +46,7 @@ function nextImagefour(el){
 }	
 
 function nextImagefive(el){
-		if (el.src.match("images/muncyjersey.png")){
+	if (el.src.match("images/muncyjersey.png")){
 		el.src = "images/MM.png"; 
 	} else if (el.src.match("images/MM.png")){
 		el.src = "images/MM.png";
@@ -53,7 +54,7 @@ function nextImagefive(el){
 }	
 
 function nextImagesix(el){
-		if (el.src.match("images/verdugojersey.png")){
+	if (el.src.match("images/verdugojersey.png")){
 		el.src = "images/AV.png"; 
 	} else if (el.src.match("images/AV.png")){
 		el.src = "images/AV.png";
@@ -86,7 +87,9 @@ function  checkConfigurationtwo(el){
 		alert("Wow, you found the secret java function!");
 		
 	} else {
-		alert("Ah! Can't complete this just yet!"); // an alert is like a notification that pops up on the screen saying something. 
+		alert("Wrong! Your dead:("); // an alert is like a notification that pops up on the screen saying something. 
 	}
 	// when the images match up to the src's then it will add opaque to each a,b,c, and d class. then the class "display" will be removed and will add the class display on the src. Then an alert will pop up saying whatever is in the quotations. Finally, if the srcs dont match up, then a alert will pop up saying whatever is in the quotations.
 }
+
+ 
